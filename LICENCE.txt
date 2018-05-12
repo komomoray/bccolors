@@ -1,0 +1,6 @@
+BCCOLORS : baserCMS Theme
+Copyright 2014, 小桃デザイン. <http://komomo.biz/>
+
+About License
+Licensed under the baserマーケット標準販売ライセンス
+http://barket.jp/files/baser_market_license.pdf

@@ -1,0 +1,31 @@
+
+#TopWrap {
+	background: MAIN;
+}
+#Footer {
+	background: MAIN;
+}
+a {
+	color:LINK;
+}
+a:link {
+	color:LINK;
+}
+a:visited {
+	color:LINK;
+}
+a:hover {
+	color:HOVER;
+}
+a:active {
+	color:HOVER;
+}
+.widget-local-navi li.first a {
+	background: SUB;
+}
+.widget h2 {
+	background: SUB;
+}
+.widget-blog-calendar td center {
+	background: SUB;
+}

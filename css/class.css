@@ -1,0 +1,234 @@
+@charset "utf-8";
+
+/* @group .Clearfix
+-------------------------------- */
+
+.clearfix:after{
+    content:"";
+    clear:both;
+    display:block;
+    height:0;
+}
+.clearfix {
+	display: inline-block;
+}
+* html .clearfix {
+	height: 1%;
+}
+.clearfix {
+	display: block;
+}
+
+.clear {
+	clear: both;
+}
+
+
+/* @end */
+
+
+/* @display
+-------------------------------- */
+
+.displayNone {
+	display: none;
+}
+.display-none {
+	display: none;
+}
+
+/* @end */
+
+
+/* @font-family
+-------------------------------- */
+
+.mincho {
+	font-family: "ヒラギノ明朝 Pro W6","Hiragino Mincho Pro","HGS明朝E","ＭＳ Ｐ明朝",serif;
+}
+
+/* @end */
+
+
+/* @group float
+-------------------------------- */
+
+.right {
+	float: right;
+}
+.left {
+	float: left;
+}
+
+img.right {
+	margin: 0 0 10px 20px;
+}
+img.left {
+	margin: 0 20px 10px 0;
+}
+.img-right {
+	float: right;
+}
+.img-left {
+	float: left;
+}
+
+/* @end */
+
+
+/* @text-align
+-------------------------------- */
+
+.ta-right {
+	text-align: right;
+}
+.ta-center {
+	text-align: center;
+}
+
+/* @end */
+
+
+/* @vertical-align
+-------------------------------- */
+
+.va-ttop {
+	vertical-align: text-top;
+}
+
+.va-tbottom {
+	vertical-align: text-bottom;
+}
+
+.va-middle {
+	vertical-align: middle;
+}
+
+
+/* @end */
+
+
+/* @group color
+-------------------------------- */
+
+.red {
+	color: #c00;
+}
+
+.gray {
+	color: #666;
+}
+
+/* @end */
+
+
+
+/* @group margin
+-------------------------------- */
+
+.m0 {
+	margin: 0 !important;
+}
+.mb10 {
+	margin-bottom: 10px !important;
+}
+.mb20 {
+	margin-bottom: 20px !important;
+}
+.mb30 {
+	margin-bottom: 30px !important;
+}
+.mb40 {
+	margin-bottom: 40px !important;
+}
+.mb50 {
+	margin-bottom: 50px !important;
+}
+.mb60 {
+	margin-bottom: 60px !important;
+}
+
+.mt10 {
+	margin-top: 10px !important;
+}
+.mt20 {
+	margin-top: 20px !important;
+}
+
+.mr20 {
+	margin-right: 20px !important;
+}
+
+/* @end */
+
+
+/* @font size
+-------------------------------- */
+
+.fs10 {
+	font-size: 10px; font-size: 1.0rem;
+}
+.fs11 {
+	font-size: 11px; font-size: 1.1rem;
+}
+.fs12 {
+	font-size: 12px; font-size: 1.2rem;
+}
+.fs13 {
+	font-size: 13px; font-size: 1.3rem;
+}
+.fs14 {
+	font-size: 14px; font-size: 1.4rem;
+}
+.fs15 {
+	font-size: 15px; font-size: 1.5rem;
+}
+.fs16 {
+	font-size: 16px; font-size: 1.6rem;
+}
+.fs17 {
+	font-size: 17px; font-size: 1.7rem;
+}
+.fs18 {
+	font-size: 18px; font-size: 1.8rem;
+}
+.fs19 {
+	font-size: 19px; font-size: 1.9rem;
+}
+.fs20 {
+	font-size: 20px; font-size: 2.0rem;
+}
+.fs21 {
+	font-size: 21px; font-size: 2.1rem;
+}
+.fs22 {
+	font-size: 22px; font-size: 2.2rem;
+}
+.fs23 {
+	font-size: 23px; font-size: 2.3rem;
+}
+.fs24 {
+	font-size: 24px; font-size: 2.4rem;
+}
+
+/* @end */
+
+
+/* @status font color
+-------------------------------- */
+
+.required {
+	color: #c00;
+}
+
+.error-message {
+	color: #c00;
+}
+
+.message {
+	color: #c00;
+}
+
+/* @end */
+
+
