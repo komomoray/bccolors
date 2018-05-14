@@ -7,16 +7,16 @@ $this->BcBaser->js(array('admin/vendors/jquery-ui-1.11.4.min', 'admin/vendors/i1
 ?>
 
 <div class="form-contact">
-<h2 class="contents-head"><?php $this->BcBaser->contentsTitle() ?></h2>
+    <h2 class="contents-head"><?php $this->BcBaser->contentsTitle() ?></h2>
 
-<h3 class="contents-head">入力フォーム</h3>
+    <h3 class="contents-head">入力フォーム</h3>
 
-<div class="section mail-description">
-	<?php $this->Mail->description() ?>
-</div>
+    <div class="section mail-description">
+        <?php $this->Mail->description() ?>
+    </div>
 
-<div class="section">
-	<?php $this->BcBaser->flash() ?>
-	<?php $this->BcBaser->element('mail_form') ?>
-</div>
+    <div class="section">
+        <?php $this->BcBaser->flash() ?>
+        <?php $this->BcBaser->element('mail_form') ?>
+    </div>
 </div><!-- /.form-contact -->
