@@ -10,9 +10,9 @@
 			<p>810-0000  福岡県福岡市中央区○○○○○○○○</p>
 			<p>TEL / 092-123-4567</p>
 			<p id="Copyright">
-				<a href="http://basercms.net/" target="_blank"><?php $this->BcBaser->img('baser.power.gif', array('alt' => 'baserCMS : Based Website Development Project')); ?></a>
+				<a href="https://basercms.net/" target="_blank"><?php $this->BcBaser->img('baser.power.gif', array('alt' => 'baserCMS : Based Website Development Project')); ?></a>
 				&nbsp; 
-				<a href="http://cakephp.org/" target="_blank"><?php $this->BcBaser->img('cake.power.gif', array('alt' => 'CakePHP(tm) : Rapid Development Framework')); ?></a>
+				<a href="https://cakephp.org/" target="_blank"><?php $this->BcBaser->img('cake.power.gif', array('alt' => 'CakePHP(tm) : Rapid Development Framework')); ?></a>
 				&nbsp; 
 				<a href="http://komomo.biz/" target="_blank"><?php $this->BcBaser->img('common/footer/komomo.gif', array('alt' => 'komomo design')); ?></a>
 			</p>

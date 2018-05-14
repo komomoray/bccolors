@@ -13,15 +13,15 @@
 				<ul class="clearfix">
 					<li class="dropdown-item"><?php $this->BcBaser->link('home', '/') ?></li>
 					<li class="dropdown-item"><?php $this->BcBaser->link('about', '/about') ?></li>
-					<li class="dropdown-item"><?php $this->BcBaser->link('service', '/service/index') ?>
+					<li class="dropdown-item"><?php $this->BcBaser->link('service', '/service/') ?>
 						<ul class="dropdown-list">
 							<li><?php $this->BcBaser->link('service1', '/service/service1') ?></li>
 							<li><?php $this->BcBaser->link('service2', '/service/service2') ?></li>
 							<li><?php $this->BcBaser->link('service3', '/service/service3') ?></li>
 						</ul>
 					</li>
-					<li class="dropdown-item"><?php $this->BcBaser->link('works', '/works/index') ?></li>
-					<li class="dropdown-item"><?php $this->BcBaser->link('contact', '/contact') ?></li>
+					<li class="dropdown-item"><?php $this->BcBaser->link('works', '/works/') ?></li>
+					<li class="dropdown-item"><?php $this->BcBaser->link('contact', '/contact/') ?></li>
 				</ul>
 			</nav>
 			
