@@ -2,8 +2,8 @@
 /**
  * ブログ詳細ページ
  */
-$this->BcBaser->css('admin/colorbox/colorbox', array('inline' => true));
-$this->BcBaser->js('admin/jquery.colorbox-min-1.4.5', false);
+$this->BcBaser->css('admin/colorbox/colorbox-1.6.1', array('inline' => true));
+$this->BcBaser->js('admin/vendors/jquery.colorbox-1.6.1.min', false);
 $this->BcBaser->setDescription($this->Blog->getTitle() . '｜' . $this->Blog->getPostContent($post, false, false, 50));
 ?>
 
@@ -32,7 +32,7 @@ $(function(){
 	<!-- contentsNavi -->
 	<div id="ContentsNavi">
 		<?php $this->Blog->prevLink($post, '< 前の記事へ') ?>
-		&nbsp;  &nbsp;<?php $this->BcBaser->link('一覧へ', '/'.$post['BlogContent']['name'].'/index') ?>&nbsp;&nbsp;
+		&nbsp;  &nbsp;<?php $this->BcBaser->link('一覧へ', '/' . $this->Blog->getBlogName() . '/index') ?>&nbsp;&nbsp;
 		<?php $this->Blog->nextLink($post, '次の記事へ >') ?>
 	</div>
 	<!-- blog_comments -->
