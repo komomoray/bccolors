@@ -2,8 +2,8 @@
 /**
  * ブログアーカイブ一覧
  */
-$this->BcBaser->css('admin/colorbox/colorbox', array('inline' => true));
-$this->BcBaser->js('admin/jquery.colorbox-min-1.4.5', false);
+$this->BcBaser->css('admin/colorbox/colorbox-1.6.1', array('inline' => true));
+$this->BcBaser->js('admin/vendors/jquery.colorbox-1.6.1.min', false);
 $this->BcBaser->setDescription($this->Blog->getTitle() . '｜' . $this->BcBaser->getContentsTitle() . 'のアーカイブ一覧です。');
 ?>
 

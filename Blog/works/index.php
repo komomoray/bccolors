@@ -2,8 +2,8 @@
 /**
  * ブログトップ
  */
-$this->BcBaser->css('admin/colorbox/colorbox', array('inline' => true));
-$this->BcBaser->js('admin/jquery.colorbox-min-1.4.5', false);
+$this->BcBaser->css('admin/colorbox/colorbox-1.6.1', array('inline' => true));
+$this->BcBaser->js('admin/vendors/jquery.colorbox-1.6.1.min', false);
 $this->BcBaser->setDescription($this->Blog->getDescription());
 ?>
 <!-- blog title -->
@@ -29,11 +29,7 @@ $(function(){
 			<h3><?php $this->Blog->postTitle($post) ?></h3>
 			<div class="work-body clearfix">
 				<div class="eye-catch left">
-				<?php $uri = $this->BcBaser->getRoot().$post['BlogContent']['name'].'/archives/'.$post['BlogPost']['no']; ?>
-				<a href="<?php echo $uri ?>">
-						<?php $this->Blog->eyeCatch($post, array('link'=>false)) ?>
-						<?php $this->Blog->eyeCatch($post, array('noimage'=>'/theme/bccolors/img/blog/works/noimage.png')) ?>
-				</a>
+				<?php $this->Blog->postLink($post, $this->Blog->getEyeCatch($post, array('link' => false, 'noimage' => $this->BcBaser->getThemeUrl() . 'img/blog/works/noimage.png'))) ?>
 				</div>
 	
 			<div class="right"><?php $this->Blog->postContent($post, false, true) ?></div>

@@ -32,16 +32,7 @@
 			<?php endif ?>
 			<li class="<?php echo implode(' ', $class) ?>">
 				<div class="eye-catch">
-				<?php //$this->Blog->eyeCatch($post) ?>
-				<!--<?php $uri = $this->BcBaser->getRoot().$post['BlogContent']['name'].'/archives/'.$post['BlogPost']['no']; ?>
-				<a href="<?php echo $uri ?>">
-						<?php //$this->Blog->eyeCatch($post, array('link'=>false)) ?>
-						<?php //$this->Blog->eyeCatch($post, array('noimage'=>'/theme/bccolors/img/blog/works/noimage.png')) ?>
-				</a>-->
-				<?php //$eyeCatch = $this->BcBaser->getRoot().'files/blog/works/blog_posts/'.$post['BlogPost']['eye_catch'] ?>
-				<?php $eyeCatch = '/files/blog/works/blog_posts/'.$post['BlogPost']['eye_catch'] ?>
-				<?php $this->BcBaser->img($eyeCatch, array('url'=> array('admin'=>false, 'plugin'=>'', 'controller'=>'works', 'action'=>'archives', $post['BlogPost']['no']))) ?>
-				<?php //$this->Blog->eyeCatch($post, array('noimage'=>'/theme/bccolors/img/blog/works/noimage.png')) ?>
+				<?php $this->Blog->postLink($post, $this->Blog->getEyeCatch($post, array('link' => false, 'noimage' => $this->BcBaser->getThemeUrl() . 'img/blog/works/noimage.png'))) ?>
 				</div>
 				<h3><?php $this->Blog->postTitle($post) ?></h3>
 			</li>
