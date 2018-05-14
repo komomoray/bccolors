@@ -26,9 +26,9 @@
 <?php endif ?>
 
 <?php $this->BcBaser->js(array(
-			'admin/jquery-1.7.2.min',
+			'jquery-1.7.2.min',
 			'admin/functions',
-			'admin/yuga',
+			'admin/vendors/yuga',
 			'jquery.startup',
 			'jquery.bxSlider.min',
 			'jquery.socialbutton-1.9.1.min'
