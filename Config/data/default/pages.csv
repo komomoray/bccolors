@@ -42,7 +42,7 @@
 
 <h3 class=""contents-head"">アクセスマップ</h3>
 
-<div class=""section""><?php $this->BcBaser->element(""googlemaps"", array(""width"" => 680)) ?></div>","","","","2018-05-13 10:03:29","2018-05-13 10:03:29"
+<div class=""section""><?php $this->BcBaser->googleMaps(array(""width"" => 680)) ?></div>","","","","2018-05-13 10:03:29","2018-05-13 10:03:29"
 "3","<h2 class=""contents-head"">サービス</h2>
 
 <div class=""section"">
