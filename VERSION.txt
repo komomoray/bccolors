@@ -1,5 +1,8 @@
-3.1.1
+4.0.0
 
+2018.5.16
+baserCMS ver.4 対応
+special thanks tecking
 
 2014.11.25
 不具合対応
