@@ -2,4 +2,4 @@
 $title = 'bcColors';
 $description = 'bcColorsは、baserCMSを利用し、管理画面からWEBサイトのマネージメントを行える工夫を施したテーマアーカイブです。baserCMSの最新機能を搭載し、テーマカラーやロゴ、メイン画像を管理画面から変更することができます。コーポレートサイトに最低限必要となる実績紹介ページ、そしてその実績ページを簡単に追加更新できる仕組みを最初から装備しています。';
 $author = '小桃デザイン';
-$url = 'https://komomo.biz/';
+$url = 'http://komomo.biz/';
